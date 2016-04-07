@@ -4,11 +4,27 @@
 #include <string>
 using namespace std;
 
+//void RoomSetup(Enviroment ptr&, Item i1, Item i2)
+
+// Actions:
+// USE, GIVE, ATTACK, GO, PICK, SEARCH, COMBINEg
+
 int main()
 {
 	// Variables
 	string userInput = "";
-	// Room arrRoom[5];
+	// Room game[5];
+
+	Enviroment* roomPtr[5]; // Declaring Rooms
+
+	for (int i = 0; i < 5; i++) // 
+	{
+		new roomPtr[i];
+	}
+
+
+
+
 
 	// String Tokenizer
 	char str[] = "EAT APPLE";
@@ -38,3 +54,19 @@ int main()
 
 	return 0;
 }
+
+
+void RoomSetup(Enviroment ptr, Item i1, Item i2)
+{
+	for (i = 0; i < 5; i++)
+	{
+		new ptr[i];
+		ptr[i]->item1 = i1;
+		
+	}
+
+	
+}
+
+
+ */
